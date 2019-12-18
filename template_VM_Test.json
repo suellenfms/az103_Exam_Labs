@@ -52,7 +52,7 @@
         }
     },
     "variables": {
-        "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvmsfmstests')]",
+        "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
         "nicName": "SFMS_TST_VMNic1",
         "addressPrefix": "10.10.3.0/24",
         "subnetName": "Subnet",
